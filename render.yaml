@@ -70,7 +70,7 @@ services:
       
       # Disable telemetry to avoid webhook registration issues
       - key: N8N_DIAGNOSTICS_ENABLED
-        value: false
+        value: true
       - key: N8N_VERSION_NOTIFICATIONS_ENABLED
         value: false
       
